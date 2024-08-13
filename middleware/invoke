@@ -4,7 +4,8 @@
 # jupyter tool
 #
 /usr/bin/invoke_app "$@" -t autosolvatetool \
-                         -C "start_jupyter -T @tool -t bin/index.ipynb" \
-                         -u anaconda-7 \
-                         -r none \
-                         -w headless
+             -C "start_jupyter -T @tool -t bin/index.ipynb" \
+             -u gamess-20170420 \
+             -u anaconda-7 \
+             -r none \
+             -w headless
