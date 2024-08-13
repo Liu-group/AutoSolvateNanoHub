@@ -3,7 +3,7 @@
 #
 # jupyter tool
 #
-/usr/bin/invoke_app "$@" -t autosolvate \
+/usr/bin/invoke_app "$@" -t autosolvatetool \
                          -C "start_jupyter -T @tool -t bin/index.ipynb" \
                          -u anaconda-X \
                          -r none \
