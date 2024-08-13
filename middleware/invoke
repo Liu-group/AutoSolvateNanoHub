@@ -3,8 +3,8 @@
 #
 # jupyter tool
 #
-/usr/bin/invoke_app "$@" -t hubtoolshortname \
-                         -C "start_jupyter -T @tool -t hubtoolshortname.ipynb" \
+/usr/bin/invoke_app "$@" -t autosolvate \
+                         -C "start_jupyter -T @tool -t bin/index.ipynb" \
                          -u anaconda-X \
                          -r none \
                          -w headless
